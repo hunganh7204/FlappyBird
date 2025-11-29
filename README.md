@@ -2,6 +2,11 @@
 A simple **Flappy Bird** clone built with Unity
 
 ---
+## Demo
+
+https://github.com/user-attachments/assets/dc41c113-87fd-4fb0-baa5-67e1a74c31c1
+
+---
 
 ## 🚀 How to Run
 1. Open this project in Unity 6.1 (6000.1.11f1) or newer.
