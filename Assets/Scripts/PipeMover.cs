@@ -11,7 +11,7 @@ public class PipeMover : MonoBehaviour
 
         if(transform.position.x < -10f)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

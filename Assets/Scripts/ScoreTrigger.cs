@@ -1,4 +1,3 @@
-using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class ScoreTrigger : MonoBehaviour
@@ -10,6 +9,11 @@ public class ScoreTrigger : MonoBehaviour
     private void Awake()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
+    }
+
+    private void OnEnable()
+    {
+        scored = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
